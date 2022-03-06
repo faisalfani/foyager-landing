@@ -1,7 +1,12 @@
 import React from 'react';
+import Hero from './Hero';
 
-const Home = () => {
-  return <div>ini home</div>;
+const Home = ({ history, location }) => {
+  return (
+    <section>
+      <Hero />
+    </section>
+  );
 };
 
 export default Home;
