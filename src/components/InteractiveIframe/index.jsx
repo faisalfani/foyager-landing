@@ -7,7 +7,6 @@ const InteractiveIframe = () => {
       height='80%'
       width='80%'
       data-aos='zoom-in'
-      onLoad={() => setIsIframeLoading(false)}
     />
   );
 };

@@ -4,7 +4,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import InteractiveIframe from '@/components/InteractiveIframe/Loadable';
 import Lottie from 'react-lottie';
-import animationData from './underline';
+import animationData from './lotties/underline';
 
 const TextHero = styled(Text)`
   font-size: 72px;
